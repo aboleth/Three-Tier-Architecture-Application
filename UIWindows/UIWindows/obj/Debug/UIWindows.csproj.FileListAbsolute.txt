@@ -1,0 +1,17 @@
+D:\Loja\UIWindows\UIWindows\obj\Debug\UIWindows.csprojResolveAssemblyReference.cache
+D:\Loja\UIWindows\UIWindows\obj\Debug\Loja.UIWindows.frmCliente.resources
+D:\Loja\UIWindows\UIWindows\obj\Debug\UIWindows.Properties.Resources.resources
+D:\Loja\UIWindows\UIWindows\obj\Debug\UIWindows.csproj.GenerateResource.Cache
+D:\Loja\UIWindows\UIWindows\obj\Debug\UIWindows.csproj.CoreCompileInputs.cache
+D:\Loja\UIWindows\UIWindows\bin\Debug\UIWindows.exe.config
+D:\Loja\UIWindows\UIWindows\bin\Debug\UIWindows.exe
+D:\Loja\UIWindows\UIWindows\bin\Debug\UIWindows.pdb
+D:\Loja\UIWindows\UIWindows\bin\Debug\BLL.dll
+D:\Loja\UIWindows\UIWindows\bin\Debug\DAL.dll
+D:\Loja\UIWindows\UIWindows\bin\Debug\Modelos.dll
+D:\Loja\UIWindows\UIWindows\bin\Debug\BLL.pdb
+D:\Loja\UIWindows\UIWindows\bin\Debug\DAL.pdb
+D:\Loja\UIWindows\UIWindows\bin\Debug\Modelos.pdb
+D:\Loja\UIWindows\UIWindows\obj\Debug\UIWindows.exe
+D:\Loja\UIWindows\UIWindows\obj\Debug\UIWindows.pdb
+D:\Loja\UIWindows\UIWindows\obj\Debug\Loja.UIWindows.frmMain.resources

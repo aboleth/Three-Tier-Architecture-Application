@@ -1,0 +1,8 @@
+D:\Loja\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Loja\DAL\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Loja\DAL\DAL\bin\Debug\DAL.dll
+D:\Loja\DAL\DAL\bin\Debug\DAL.pdb
+D:\Loja\DAL\DAL\bin\Debug\Modelos.dll
+D:\Loja\DAL\DAL\bin\Debug\Modelos.pdb
+D:\Loja\DAL\DAL\obj\Debug\DAL.dll
+D:\Loja\DAL\DAL\obj\Debug\DAL.pdb

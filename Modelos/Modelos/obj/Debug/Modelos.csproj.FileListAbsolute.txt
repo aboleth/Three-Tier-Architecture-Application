@@ -1,0 +1,6 @@
+D:\Loja\Modelos\Modelos\bin\Debug\Modelos.dll
+D:\Loja\Modelos\Modelos\bin\Debug\Modelos.pdb
+D:\Loja\Modelos\Modelos\obj\Debug\Modelos.csprojResolveAssemblyReference.cache
+D:\Loja\Modelos\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
+D:\Loja\Modelos\Modelos\obj\Debug\Modelos.dll
+D:\Loja\Modelos\Modelos\obj\Debug\Modelos.pdb
