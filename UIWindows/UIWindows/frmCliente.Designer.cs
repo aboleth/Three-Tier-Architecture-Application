@@ -43,16 +43,14 @@
             this.btnLer = new System.Windows.Forms.Button();
             this.datagridCliente = new System.Windows.Forms.DataGridView();
             this.lblObrigatório = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnVoltar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.datagridCliente)).BeginInit();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(9, 30);
+            this.lblCodigo.Location = new System.Drawing.Point(9, 17);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(43, 13);
             this.lblCodigo.TabIndex = 0;
@@ -61,7 +59,7 @@
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(9, 62);
+            this.lblNome.Location = new System.Drawing.Point(9, 49);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(42, 13);
             this.lblNome.TabIndex = 1;
@@ -70,7 +68,7 @@
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(9, 94);
+            this.lblEmail.Location = new System.Drawing.Point(9, 81);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(42, 13);
             this.lblEmail.TabIndex = 2;
@@ -79,7 +77,7 @@
             // lblTelefone
             // 
             this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Location = new System.Drawing.Point(9, 126);
+            this.lblTelefone.Location = new System.Drawing.Point(9, 113);
             this.lblTelefone.Name = "lblTelefone";
             this.lblTelefone.Size = new System.Drawing.Size(52, 13);
             this.lblTelefone.TabIndex = 3;
@@ -88,7 +86,7 @@
             // txtboxCodigo
             // 
             this.txtboxCodigo.Enabled = false;
-            this.txtboxCodigo.Location = new System.Drawing.Point(66, 27);
+            this.txtboxCodigo.Location = new System.Drawing.Point(66, 14);
             this.txtboxCodigo.Name = "txtboxCodigo";
             this.txtboxCodigo.ReadOnly = true;
             this.txtboxCodigo.Size = new System.Drawing.Size(70, 20);
@@ -97,7 +95,7 @@
             // 
             // txtboxNome
             // 
-            this.txtboxNome.Location = new System.Drawing.Point(66, 59);
+            this.txtboxNome.Location = new System.Drawing.Point(66, 46);
             this.txtboxNome.Name = "txtboxNome";
             this.txtboxNome.Size = new System.Drawing.Size(200, 20);
             this.txtboxNome.TabIndex = 5;
@@ -105,7 +103,7 @@
             // 
             // txtboxEmail
             // 
-            this.txtboxEmail.Location = new System.Drawing.Point(66, 91);
+            this.txtboxEmail.Location = new System.Drawing.Point(66, 78);
             this.txtboxEmail.Name = "txtboxEmail";
             this.txtboxEmail.Size = new System.Drawing.Size(200, 20);
             this.txtboxEmail.TabIndex = 6;
@@ -113,7 +111,7 @@
             // 
             // txtboxTelefone
             // 
-            this.txtboxTelefone.Location = new System.Drawing.Point(66, 123);
+            this.txtboxTelefone.Location = new System.Drawing.Point(66, 110);
             this.txtboxTelefone.Name = "txtboxTelefone";
             this.txtboxTelefone.Size = new System.Drawing.Size(200, 20);
             this.txtboxTelefone.TabIndex = 7;
@@ -121,9 +119,9 @@
             // 
             // btnIncluir
             // 
-            this.btnIncluir.Location = new System.Drawing.Point(123, 151);
+            this.btnIncluir.Location = new System.Drawing.Point(117, 134);
             this.btnIncluir.Name = "btnIncluir";
-            this.btnIncluir.Size = new System.Drawing.Size(75, 23);
+            this.btnIncluir.Size = new System.Drawing.Size(60, 23);
             this.btnIncluir.TabIndex = 8;
             this.btnIncluir.Text = "Incluir";
             this.btnIncluir.UseVisualStyleBackColor = true;
@@ -131,9 +129,9 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(204, 151);
+            this.btnLimpar.Location = new System.Drawing.Point(183, 134);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpar.Size = new System.Drawing.Size(60, 23);
             this.btnLimpar.TabIndex = 9;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
@@ -141,9 +139,9 @@
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(285, 151);
+            this.btnAlterar.Location = new System.Drawing.Point(249, 134);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(75, 23);
+            this.btnAlterar.Size = new System.Drawing.Size(60, 23);
             this.btnAlterar.TabIndex = 10;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
@@ -151,9 +149,9 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(366, 151);
+            this.btnExcluir.Location = new System.Drawing.Point(315, 134);
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(75, 23);
+            this.btnExcluir.Size = new System.Drawing.Size(60, 23);
             this.btnExcluir.TabIndex = 11;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
@@ -161,9 +159,9 @@
             // 
             // btnLer
             // 
-            this.btnLer.Location = new System.Drawing.Point(366, 419);
+            this.btnLer.Location = new System.Drawing.Point(381, 134);
             this.btnLer.Name = "btnLer";
-            this.btnLer.Size = new System.Drawing.Size(75, 23);
+            this.btnLer.Size = new System.Drawing.Size(60, 23);
             this.btnLer.TabIndex = 12;
             this.btnLer.Text = "Ler";
             this.btnLer.UseVisualStyleBackColor = true;
@@ -175,9 +173,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.datagridCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datagridCliente.Location = new System.Drawing.Point(12, 180);
+            this.datagridCliente.Location = new System.Drawing.Point(12, 163);
             this.datagridCliente.Name = "datagridCliente";
-            this.datagridCliente.Size = new System.Drawing.Size(429, 233);
+            this.datagridCliente.Size = new System.Drawing.Size(429, 275);
             this.datagridCliente.TabIndex = 13;
             this.datagridCliente.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagridCliente_CellClick);
             // 
@@ -185,33 +183,28 @@
             // 
             this.lblObrigatório.AutoSize = true;
             this.lblObrigatório.ForeColor = System.Drawing.Color.DarkRed;
-            this.lblObrigatório.Location = new System.Drawing.Point(9, 156);
+            this.lblObrigatório.Location = new System.Drawing.Point(9, 139);
             this.lblObrigatório.Name = "lblObrigatório";
             this.lblObrigatório.Size = new System.Drawing.Size(106, 13);
             this.lblObrigatório.TabIndex = 14;
             this.lblObrigatório.Text = "*Campos obrigatórios";
             // 
-            // menuStrip1
+            // btnVoltar
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(453, 24);
-            this.menuStrip1.TabIndex = 15;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // menuToolStripMenuItem
-            // 
-            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.menuToolStripMenuItem.Text = "Menu";
+            this.btnVoltar.Location = new System.Drawing.Point(381, 12);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(60, 23);
+            this.btnVoltar.TabIndex = 15;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // frmCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 454);
+            this.ClientSize = new System.Drawing.Size(453, 450);
+            this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.lblObrigatório);
             this.Controls.Add(this.datagridCliente);
             this.Controls.Add(this.btnLer);
@@ -227,14 +220,10 @@
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblNome);
             this.Controls.Add(this.lblCodigo);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmCliente";
             this.Text = "Clientes";
             this.Load += new System.EventHandler(this.frmCliente_Load);
             ((System.ComponentModel.ISupportInitialize)(this.datagridCliente)).EndInit();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -257,7 +246,6 @@
         private System.Windows.Forms.Button btnLer;
         private System.Windows.Forms.DataGridView datagridCliente;
         private System.Windows.Forms.Label lblObrigatório;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
+        private System.Windows.Forms.Button btnVoltar;
     }
 }

@@ -154,5 +154,10 @@ namespace Loja.UIWindows
             txtboxEmail.Text = datagridCliente[2, datagridCliente.CurrentRow.Index].Value.ToString();
             txtboxTelefone.Text = datagridCliente[3, datagridCliente.CurrentRow.Index].Value.ToString();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

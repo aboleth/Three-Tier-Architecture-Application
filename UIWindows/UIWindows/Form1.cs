@@ -25,6 +25,12 @@ namespace Loja.UIWindows
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmCliente obj = new frmCliente();
+            obj.TopLevel = false;
+            obj.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            //obj.Size = this.Size;
+            obj.BringToFront();
+            obj.Visible = true;
+            this.Controls.Add(obj);
             obj.MdiParent = this;
             obj.Show();
         }
